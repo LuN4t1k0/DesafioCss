@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    border:0;
+
+}
+@font-face {
+    font-family: pokemonsolid;
+    src: url(/assets/fonts/pokemonsolid.ttf);
+    }
+
+.bg {
+    background-image: url("/assets/img/fondo.jpeg");
+    height: 20%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25em;
+}
+
+header h1{
+    margin: 0px;
+    text-align: center;
+    padding: 0.5em;
+    font-size: 3em;
+    font-family: "pokemonsolid";
+    color: #306bb1;
+}
+
+header p{
+    margin: 0px;
+    text-align: center;
+    padding: 7em;
+    font-size: 2em;
+    font-family: "pokemonsolid";
+    color: #306bb1;
+}
+
+section table{
+    width: 80%;
+    margin: 0 auto;
+    border: solid 1px #306bb1;
+}
+
+section table th{
+    background-color: #306bb1;
+    align-items: center;
+    height: 4em;
+    color: #fff;
+    font-size: 1.5em;
+    font-family: "pokemonsolid";
+}
+
+section table td{
+    background-color: white;
+    align-items: center;
+    border : solid 1px #306bb1;
+
+}
+section table td img{
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    padding-left: 20%;
+    padding-right: 20%; 
+}
+
+.description{
+    padding : 2em;
+    width: 33%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.price{
+    padding : 2em;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 2em;
+    font-family: "pokemonsolid";
+}
+
+footer{
+    padding: 2em;
+    width: 100%;
+    background-color: #306bb1;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: "pokemonsolid";
+}
+
